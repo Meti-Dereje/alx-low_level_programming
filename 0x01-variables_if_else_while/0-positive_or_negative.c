@@ -10,17 +10,13 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
+printf("Enter the number n: ");
+scanf("%d", &n);
 if(n > 0)
-{
 printf("%d is a positive number \n", n);
-}
-if(n < 0)
-{
+else if(n < 0)
 printf("%d is a negetive number \n", n);
-}
-if(n == 0)
-{
+else if(n == 0)
 printf("%d is zero \n", n);
-}
 return (0);
 }
