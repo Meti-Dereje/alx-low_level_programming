@@ -7,17 +7,17 @@
 int main(void)
 {
 int n;
-
+/*function goes here */
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
 printf("Enter the number n: ");
-scanf("%d", &n);
+scanf("%i", &n);
 if(n > 0)
-printf("%d is a positive number \n", n);
+printf("%i is a positive number \n", n);
 else if(n < 0)
-printf("%d is a negetive number \n", n);
+printf("%i is a negetive number \n", n);
 else if(n == 0)
-printf("%d is zero \n", n);
+printf("%i is zero \n", n);
 return (0);
 }
