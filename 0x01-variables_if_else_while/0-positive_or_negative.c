@@ -4,20 +4,23 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/*
+* main - Prints a random number and states whether
+*it is positive, negative, or zero.
+*
+* Return: Always 0.
+*/
 int main(void)
-/*function goes here */
 {
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-printf("Enter the number n: ");
-scanf("%i", &n);
 if (n > 0)
-printf("%i is a positive number \n", n);
+printf("%d is a positive number \n", n);
 else if (n < 0)
-printf("%i is a negetive number \n", n);
-else if (n == 0)
-printf("%i is zero \n", n);
+printf("%d is a negetive number \n", n);
+else (n == 0)
+printf("%d is zero \n", n);
 return (0);
 }
