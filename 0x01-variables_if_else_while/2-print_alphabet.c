@@ -13,7 +13,8 @@
 
 int main(void)
 
-/* main function prints lowercase alphabet
+/*
+* main function prints lowercase alphabet
 */
 {
 char letter;
