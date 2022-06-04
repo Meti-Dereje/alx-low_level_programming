@@ -11,7 +11,7 @@
 * Return: Always 0.
 */
 
-int main(void)
+int main(char)
 
 /*
 * main function prints lowercase alphabet
