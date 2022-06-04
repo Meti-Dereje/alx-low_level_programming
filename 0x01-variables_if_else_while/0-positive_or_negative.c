@@ -12,6 +12,8 @@
 * Return: Always 0.
 */
 int main(void)
+/* main function prints posetive ,negative and zero
+*/  
 {
 int n;
 srand(time(0));
