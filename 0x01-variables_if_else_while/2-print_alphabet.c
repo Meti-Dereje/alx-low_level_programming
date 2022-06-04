@@ -11,6 +11,8 @@
 * Return: Always 0.
 */
 int main(void)
+/* main function prints lowercase alphabet
+*/
 {
 char letter;
 
