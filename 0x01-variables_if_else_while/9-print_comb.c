@@ -1,7 +1,3 @@
-/*
-* File: 9-print_comb.c
-* Auth: Brennan D Baraban
-*/
 #include <stdio.h>
 /**
 * main - Prints all possible combinations of single-digit numbers.
