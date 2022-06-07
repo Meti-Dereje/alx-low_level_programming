@@ -1,9 +1,9 @@
+#inlude "main.h"
 #include<stdio.h>
 /**
 * main function print lowercase alphabet
 */
 void print_alphabet(void);
-
 {
 
 char l;
