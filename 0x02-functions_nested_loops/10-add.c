@@ -1,12 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 /**
-* main - check the code
+* add - Adds two integers.
+* @num1: The first integer to be added.
+* @num2: The second integer to be added
 *
-* Return: Always 0.
 */
-int add(int, int);
+int add(int a, int b)
 {
-  int a, b, c;
-c = a + b;
-return (c);
+return (a + b);
 }
