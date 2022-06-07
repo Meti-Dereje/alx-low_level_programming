@@ -18,7 +18,7 @@ if (A <= 9)
 _putchar(' ');
 else
 _putchar((A / 10) + '0');
-_putchar((a % 10) + '0');
+_putchar((A % 10) + '0');
 }
 _putchar('\n');
 }
