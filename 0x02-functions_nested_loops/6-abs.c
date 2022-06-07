@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* main - check the code
+* File: 6-abs.
 *
 * Return: Always 0.
 */
