@@ -2,7 +2,7 @@
 /**
 *the main function retuns putchar
 */
-int main(void)
+int main(void);
 {
 
 _putchar("_putchar");
