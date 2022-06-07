@@ -1,3 +1,4 @@
+#include "main.h"
 #include<stdio.h>
 /**
 *the main function retuns putchar
