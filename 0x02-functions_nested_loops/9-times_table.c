@@ -1,8 +1,7 @@
-#include <stdi.h>
+#include "main.h"
 /**
-* main - check the code
-*
-* Return: Always 0.
+*times_table - Prints the 9 times table, starting with 0.
+* 
 */
 void times_table(void);
 {
