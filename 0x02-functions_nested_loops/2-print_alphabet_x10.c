@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
-* 
-*main print alphabet 10 times
+* print_alphabet print alphabet ten time
+*
+* retun always 0 
 */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 
 {
 int c = 0;
