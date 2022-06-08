@@ -1,12 +1,15 @@
 #include "main.h"
 /**
-*the main function retuns putchar
+* main - Prints "Holberton" followed by a new line.
+*
+* Return: Always 0.
 */
 int main(void)
   
 {
 
-_putchar("_");
+_putchar('_');
+kill -9 emacs
 _putchar('p');
 _putchar('u');
 _putchar('t');
