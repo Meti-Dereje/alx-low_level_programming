@@ -1,5 +1,5 @@
-#include main.h"
-#include <string.h>
+#include "main.h"
+#include <stdio.h>
 /**
 * strcat - Concatenates the string pointed to by
 * @src, including the terminating
@@ -12,13 +12,16 @@
 
 char *strcat(char *dest, const char *src)
 {
-int len = 0, i;
-while (dest[len])
+int len = 0, i = 0;
+while (dest[len] != '\0')
+{
 len++;
-for (i = 0; src[i] != '0' ; i++)
+}
+while (src[i] != '\0')
 {
 dest[len] = src[i];
-len += 1;
+len++;
+i++;
 }
 dest[len] = '\0';
 return (dest);
